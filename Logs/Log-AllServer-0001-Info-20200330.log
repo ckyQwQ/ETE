@@ -1,0 +1,9 @@
+2020-03-30 08:12:40.6506 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 08:28:59.3847 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 08:59:01.0937 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 09:07:10.1176 AllServer 0001 (LocationComponent.cs:62) location add key: 385384298971177 instanceId: 281474976710696
+2020-03-30 09:07:20.5743 AllServer 0001 (LocationComponent.cs:169) location get key: 385384298971177 281474976710696
+2020-03-30 09:13:13.6690 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 09:28:18.1097 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 13:10:14.6274 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-03-30 15:14:58.8136 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
