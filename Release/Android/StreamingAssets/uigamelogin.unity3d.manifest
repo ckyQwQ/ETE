@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 939373002
+CRC: 820104302
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 08f555d4e5e21272f8f57d952c52c0e7
+    Hash: be38001a1a2c7cf3bc05b7e70e8bd474
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 21bed7974e750b2e373cf8cc1701e939
+    Hash: 382ab53320848067a118ebc5d75d9da7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -44,6 +44,8 @@ ClassTypes:
 - Class: 223
   Script: {instanceID: 0}
 - Class: 224
+  Script: {instanceID: 0}
+- Class: 225
   Script: {instanceID: 0}
 Assets:
 - Assets/Bundles/UI/UIGameLogin.prefab
