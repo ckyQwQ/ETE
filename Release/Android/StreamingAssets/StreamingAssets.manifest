@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2701597140
+CRC: 2905581894
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -25,4 +25,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_7:
       Name: uijoystick.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: aircraftjet.unity3d
       Dependencies: {}
