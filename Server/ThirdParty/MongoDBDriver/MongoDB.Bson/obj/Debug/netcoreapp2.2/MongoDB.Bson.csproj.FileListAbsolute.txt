@@ -1,0 +1,11 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Bson.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Bson.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Bson.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Bson.xml
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.xml
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\obj\Debug\netcoreapp2.2\MongoDB.Bson.csprojAssemblyReference.cache

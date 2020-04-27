@@ -1,0 +1,12 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Driver.Core.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Driver.Core.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Driver.Core.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\netcoreapp2.2\MongoDB.Driver.Core.xml
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.csprojAssemblyReference.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.csproj.CopyComplete
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.xml
+C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\obj\Release\netcoreapp2.2\MongoDB.Driver.Core.pdb
