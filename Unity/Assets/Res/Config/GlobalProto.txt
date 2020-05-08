@@ -1,0 +1,1 @@
+{"AssetBundleServerUrl":"http://halfangel.cn:81/","Address":"127.0.0.1:10002"}
