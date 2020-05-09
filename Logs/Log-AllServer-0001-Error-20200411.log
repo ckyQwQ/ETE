@@ -1,0 +1,664 @@
+2020-04-11 13:55:17.0027 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 14:16:56.3960 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 15:49:06.5420 AllServer 0001 MongoDB.Driver.MongoConnectionException: An exception occurred while receiving a message from the server. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MongoDB.Driver.Core.Misc.StreamExtensionMethods.ReadBytes(Stream stream, Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Misc\StreamExtensionMethods.cs:line 41
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 314
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 329
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer(Int32 responseTo, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 349
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 444
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 558
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquiredConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 654
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandUsingCommandMessageWireProtocol.cs:line 101
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandWireProtocol.cs:line 104
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocol[TResult](IWireProtocol`1 protocol, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 938
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.Command[TResult](ICoreSession session, ReadPreference readPreference, DatabaseNamespace databaseNamespace, BsonDocument command, IEnumerable`1 commandPayloads, IElementNameValidator commandValidator, BsonDocument additionalOptions, Action`1 postWriteAction, CommandResponseHandling responseHandling, IBsonSerializer`1 resultSerializer, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 529
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelHandle channel, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 151
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelSource channelSource, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 184
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\ReadCommandOperation.cs:line 63
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 503
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.IMongoCollectionExtensions.FindSync[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 904
+   at ETHotfix.C2R_LoginHandler.checkAccount(String account, String password) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 49
+   at ETHotfix.C2R_LoginHandler.Run(Session session, C2R_Login request, R2C_Login response, Action reply) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 16
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 504 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1751 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 15:50:18.7948 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 15:50:54.2496 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 15:57:36.9135 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 16:00:53.3994 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:10:58.4252 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:19:28.8745 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:19:55.8868 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:24:18.4690 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:24:58.5793 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:25:49.5514 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:30:59.6012 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:32:51.0590 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:34:07.1132 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:56:23.6489 AllServer 0001 MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server. ---> MongoDB.Driver.MongoConnectionException: An exception occurred while receiving a message from the server. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MongoDB.Driver.Core.Misc.StreamExtensionMethods.ReadBytes(Stream stream, Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Misc\StreamExtensionMethods.cs:line 41
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 314
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 329
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer(Int32 responseTo, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 349
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 444
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingQueryMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandUsingQueryMessageWireProtocol.cs:line 128
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandWireProtocol.cs:line 104
+   at MongoDB.Driver.Core.Connections.ConnectionInitializer.InitializeConnection(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\ConnectionInitializer.cs:line 48
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 279
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 286
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 241
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 548
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquiredConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 636
+   at MongoDB.Driver.Core.Servers.Server.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 147
+   at MongoDB.Driver.Core.Bindings.ServerChannelSource.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Bindings\ServerChannelSource.cs:line 81
+   at MongoDB.Driver.Core.Bindings.ChannelSourceHandle.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Bindings\ChannelSourceHandle.cs:line 73
+   at MongoDB.Driver.Core.Operations.RetryableWriteContext.Initialize(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteContext.cs:line 186
+   at MongoDB.Driver.Core.Operations.RetryableWriteContext.Create(IWriteBinding binding, Boolean retryRequested, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteContext.cs:line 46
+   at MongoDB.Driver.Core.Operations.RetryableWriteOperationExecutor.Execute[TResult](IRetryableWriteOperation`1 operation, IWriteBinding binding, Boolean retryRequested, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteOperationExecutor.cs:line 30
+   at MongoDB.Driver.Core.Operations.FindAndModifyOperationBase`1.Execute(IWriteBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindAndModifyOperationBase.cs:line 129
+   at MongoDB.Driver.OperationExecutor.ExecuteWriteOperation[TResult](IWriteBinding binding, IWriteOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 44
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteWriteOperation[TResult](IClientSessionHandle session, IWriteOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1063
+   at MongoDB.Driver.MongoCollectionImpl`1.FindOneAndUpdate[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 435
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass53_0`1.<FindOneAndUpdate>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 424
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindOneAndUpdate[TProjection](FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 424
+   at MongoDB.Driver.IMongoCollectionExtensions.FindOneAndUpdate[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 1560
+   at ETModel.IDCounter.getNextId() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Demo\IDGenerator\IDCounter.cs:line 21
+   at ETModel.PlayerMongoDB..ctor() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Demo\PlayerMongoDB.cs:line 7
+   at lambda_method(Closure )
+   at MongoDB.Bson.Serialization.BsonClassMap.CreateInstance() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\BsonClassMap.cs:line 447
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 140
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 100
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs:line 49
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CursorBatchDeserializationHelper.cs:line 59
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursorBatch(BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 483
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 460
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 504
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.IMongoCollectionExtensions.FindSync[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 904
+   at ETHotfix.C2R_LoginHandler.checkAccount(String account, String password) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 49
+   at ETHotfix.C2R_LoginHandler.Run(Session session, C2R_Login request, R2C_Login response, Action reply) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 16
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 504 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1751 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:56:23.9886 AllServer 0001 MongoDB.Driver.MongoConnectionException: An exception occurred while receiving a message from the server. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MongoDB.Driver.Core.Misc.StreamExtensionMethods.ReadBytes(Stream stream, Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Misc\StreamExtensionMethods.cs:line 41
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 314
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 329
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer(Int32 responseTo, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 349
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 444
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 558
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquiredConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 654
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandUsingCommandMessageWireProtocol.cs:line 101
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandWireProtocol.cs:line 104
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocol[TResult](IWireProtocol`1 protocol, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 938
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.Command[TResult](ICoreSession session, ReadPreference readPreference, DatabaseNamespace databaseNamespace, BsonDocument command, IEnumerable`1 commandPayloads, IElementNameValidator commandValidator, BsonDocument additionalOptions, Action`1 postWriteAction, CommandResponseHandling responseHandling, IBsonSerializer`1 resultSerializer, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 529
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelHandle channel, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 151
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelSource channelSource, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 184
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\ReadCommandOperation.cs:line 63
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 503
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.IMongoCollectionExtensions.FindSync[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 904
+   at ETHotfix.C2R_LoginHandler.checkAccount(String account, String password) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 49
+   at ETHotfix.C2R_LoginHandler.Run(Session session, C2R_Login request, R2C_Login response, Action reply) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 16
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 504 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1751 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:56:31.2728 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 17:58:38.8699 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 18:04:56.4928 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 229 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:243:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 18:08:55.5212 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 18:15:50.1023 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 18:16:43.3080 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 21:36:41.5826 AllServer 0001 MongoDB.Driver.MongoConnectionException: An exception occurred while opening a connection to the server. ---> MongoDB.Driver.MongoConnectionException: An exception occurred while receiving a message from the server. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MongoDB.Driver.Core.Misc.StreamExtensionMethods.ReadBytes(Stream stream, Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Misc\StreamExtensionMethods.cs:line 41
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 314
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 329
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer(Int32 responseTo, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 349
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 444
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingQueryMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandUsingQueryMessageWireProtocol.cs:line 128
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandWireProtocol.cs:line 104
+   at MongoDB.Driver.Core.Connections.IsMasterHelper.GetResult(IConnection connection, CommandWireProtocol`1 isMasterProtocol, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\IsMasterHelper.cs:line 62
+   at MongoDB.Driver.Core.Connections.ConnectionInitializer.InitializeConnection(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\ConnectionInitializer.cs:line 45
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 279
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelper(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 286
+   at MongoDB.Driver.Core.Connections.BinaryConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 241
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 548
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquiredConnection.Open(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 636
+   at MongoDB.Driver.Core.Servers.Server.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 147
+   at MongoDB.Driver.Core.Bindings.ServerChannelSource.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Bindings\ServerChannelSource.cs:line 81
+   at MongoDB.Driver.Core.Bindings.ChannelSourceHandle.GetChannel(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Bindings\ChannelSourceHandle.cs:line 73
+   at MongoDB.Driver.Core.Operations.RetryableWriteContext.Initialize(CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteContext.cs:line 186
+   at MongoDB.Driver.Core.Operations.RetryableWriteContext.Create(IWriteBinding binding, Boolean retryRequested, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteContext.cs:line 46
+   at MongoDB.Driver.Core.Operations.RetryableWriteOperationExecutor.Execute[TResult](IRetryableWriteOperation`1 operation, IWriteBinding binding, Boolean retryRequested, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\RetryableWriteOperationExecutor.cs:line 30
+   at MongoDB.Driver.Core.Operations.FindAndModifyOperationBase`1.Execute(IWriteBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindAndModifyOperationBase.cs:line 129
+   at MongoDB.Driver.OperationExecutor.ExecuteWriteOperation[TResult](IWriteBinding binding, IWriteOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 44
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteWriteOperation[TResult](IClientSessionHandle session, IWriteOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1063
+   at MongoDB.Driver.MongoCollectionImpl`1.FindOneAndUpdate[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 435
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass53_0`1.<FindOneAndUpdate>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 424
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindOneAndUpdate[TProjection](FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 424
+   at MongoDB.Driver.IMongoCollectionExtensions.FindOneAndUpdate[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, UpdateDefinition`1 update, FindOneAndUpdateOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 1560
+   at ETModel.IDCounter.getNextId() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Demo\IDGenerator\IDCounter.cs:line 21
+   at ETModel.PlayerMongoDB..ctor() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Demo\PlayerMongoDB.cs:line 7
+   at lambda_method(Closure )
+   at MongoDB.Bson.Serialization.BsonClassMap.CreateInstance() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\BsonClassMap.cs:line 447
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 140
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 100
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs:line 49
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CursorBatchDeserializationHelper.cs:line 59
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursorBatch(BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 483
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 460
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 504
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.IMongoCollectionExtensions.FindSync[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 904
+   at ETHotfix.C2R_LoginHandler.checkAccount(String account, String password) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 49
+   at ETHotfix.C2R_LoginHandler.Run(Session session, C2R_Login request, R2C_Login response, Action reply) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 16
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 504 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1751 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 21:36:42.0439 AllServer 0001 MongoDB.Driver.MongoConnectionException: An exception occurred while receiving a message from the server. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MongoDB.Driver.Core.Misc.StreamExtensionMethods.ReadBytes(Stream stream, Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Misc\StreamExtensionMethods.cs:line 41
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 314
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 329
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveBuffer(Int32 responseTo, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 349
+   at MongoDB.Driver.Core.Connections.BinaryConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Connections\BinaryConnection.cs:line 444
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.PooledConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 558
+   at MongoDB.Driver.Core.ConnectionPools.ExclusiveConnectionPool.AcquiredConnection.ReceiveMessage(Int32 responseTo, IMessageEncoderSelector encoderSelector, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\ConnectionPools\ExclusiveConnectionPool.cs:line 654
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingCommandMessageWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandUsingCommandMessageWireProtocol.cs:line 101
+   at MongoDB.Driver.Core.WireProtocol.CommandWireProtocol`1.Execute(IConnection connection, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\WireProtocol\CommandWireProtocol.cs:line 104
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.ExecuteProtocol[TResult](IWireProtocol`1 protocol, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 938
+   at MongoDB.Driver.Core.Servers.Server.ServerChannel.Command[TResult](ICoreSession session, ReadPreference readPreference, DatabaseNamespace databaseNamespace, BsonDocument command, IEnumerable`1 commandPayloads, IElementNameValidator commandValidator, BsonDocument additionalOptions, Action`1 postWriteAction, CommandResponseHandling responseHandling, IBsonSerializer`1 resultSerializer, MessageEncoderSettings messageEncoderSettings, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Servers\Server.cs:line 529
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelHandle channel, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 151
+   at MongoDB.Driver.Core.Operations.CommandOperationBase`1.ExecuteProtocol(IChannelSource channelSource, ICoreSessionHandle session, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CommandOperationBase.cs:line 184
+   at MongoDB.Driver.Core.Operations.ReadCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\ReadCommandOperation.cs:line 63
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 503
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.IMongoCollectionExtensions.FindSync[TDocument](IMongoCollection`1 collection, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\IMongoCollectionExtensions.cs:line 904
+   at ETHotfix.C2R_LoginHandler.checkAccount(String account, String password) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 49
+   at ETHotfix.C2R_LoginHandler.Run(Session session, C2R_Login request, R2C_Login response, Action reply) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\C2R_LoginHandler.cs:line 16
+   at ETModel.ETTaskCompletionSource.ETModel.IAwaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTaskCompletionSource.cs:line 32
+   at ETModel.ETTask.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 33
+   at ETModel.ETTask.Awaiter.GetResult() in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\ETTask.cs:line 98
+   at ETModel.AMRpcHandler`2.Handle(Session session, Object message) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:line 37 
+ Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 504 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:92:6
+Handle at offset 367 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1751 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\Message\AMRpcHandler.cs:37:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 21:38:00.2162 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 21:47:37.3671 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 21:49:49.2529 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-11 22:01:57.9159 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

@@ -1,0 +1,32 @@
+2020-04-10 20:02:09.0058 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-10 20:03:56.8723 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

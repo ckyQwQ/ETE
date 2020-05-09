@@ -1,0 +1,10 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\bin\Debug\netcoreapp2.2\Example2_2.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\bin\Debug\netcoreapp2.2\Example2_2.runtimeconfig.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\bin\Debug\netcoreapp2.2\Example2_2.runtimeconfig.dev.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\bin\Debug\netcoreapp2.2\Example2_2.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\bin\Debug\netcoreapp2.2\Example2_2.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\obj\Debug\netcoreapp2.2\Example2_2.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\obj\Debug\netcoreapp2.2\Example2_2.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\obj\Debug\netcoreapp2.2\Example2_2.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\obj\Debug\netcoreapp2.2\Example2_2.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_2\obj\Debug\netcoreapp2.2\Example2_2.pdb

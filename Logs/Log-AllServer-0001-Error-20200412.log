@@ -1,0 +1,608 @@
+2020-04-12 14:38:57.6183 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:40:33.1373 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:46:09.8313 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:47:53.9323 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:48:43.6734 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:50:37.8714 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:53:14.2357 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:53:46.5236 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:58:52.7556 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 14:59:54.7984 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:00:42.8149 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:01:55.2478 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:06:36.8610 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:08:52.0089 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 229 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:243:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:09:06.7723 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:09:42.8209 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:43:33.9585 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:46:44.6414 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 15:56:14.6007 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:01:56.5924 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:26:01.4470 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:28:42.3300 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:36:21.0733 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:37:37.4850 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:43:56.7823 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:52:07.7596 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:53:05.7305 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:53:27.5758 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:53:58.9283 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 16:54:13.9847 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 17:54:14.2089 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 17:56:28.1754 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 18:02:45.2238 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 18:47:32.0354 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 18:53:19.7177 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 18:54:42.9694 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 18:57:08.3391 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-12 21:59:36.0985 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

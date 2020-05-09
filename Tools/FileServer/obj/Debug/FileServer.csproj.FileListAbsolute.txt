@@ -1,0 +1,15 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\appsettings.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\FileServer.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\FileServer.runtimeconfig.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\FileServer.runtimeconfig.dev.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\FileServer.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\FileServer\FileServer.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.csprojAssemblyReference.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.RazorAssemblyInfo.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.RazorAssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.RazorTargetAssemblyInfo.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\FileServer\obj\Debug\FileServer.pdb

@@ -1,0 +1,22 @@
+2020-04-10 20:02:04.0681 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "dasshr", "Password" : "a912720539" }
+2020-04-10 20:02:04.8987 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "dasshr" }
+2020-04-10 20:02:04.9149 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 1, "Account" : "dasshr" }
+2020-04-10 20:02:04.9233 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-7625706533026991791") }
+2020-04-10 20:02:04.9233 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 1, "Error" : 0, "Message" : null, "Key" : NumberLong("-7625706533026991791") }
+2020-04-10 20:02:04.9233 AllServer 0001 (Session.cs:297) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("-7625706533026991791") }
+2020-04-10 20:02:04.9904 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("-7625706533026991791") }
+2020-04-10 20:02:04.9904 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong("281474976710725") }
+2020-04-10 20:02:04.9904 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2020-04-10 20:02:05.5997 AllServer 0001 (Session.cs:150) { "_t" : "C2G_PlayerInfo", "RpcId" : 3 }
+2020-04-10 20:02:05.6157 AllServer 0001 (Session.cs:297) { "_t" : "G2C_PlayerInfo", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerInfo" : { "RpcId" : 0 }, "PlayerInfos" : [{ "RpcId" : 1 }, { "RpcId" : 2 }, { "RpcId" : 3 }], "TestRepeatedString" : ["9", "10"], "TestRepeatedInt32" : [4, 5, 6], "TestRepeatedInt64" : [NumberLong(7), NumberLong(8)] }
+2020-04-10 20:02:41.7741 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Login", "RpcId" : 1, "Account" : "dasshr", "Password" : "a912720539" }
+2020-04-10 20:02:41.8402 AllServer 0001 (Session.cs:297) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "dasshr" }
+2020-04-10 20:02:41.8402 AllServer 0001 (Session.cs:150) { "_t" : "R2G_GetLoginKey", "RpcId" : 2, "Account" : "dasshr" }
+2020-04-10 20:02:41.8402 AllServer 0001 (Session.cs:297) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("861719870280153100") }
+2020-04-10 20:02:41.8402 AllServer 0001 (Session.cs:150) { "_t" : "G2R_GetLoginKey", "RpcId" : 2, "Error" : 0, "Message" : null, "Key" : NumberLong("861719870280153100") }
+2020-04-10 20:02:41.8453 AllServer 0001 (Session.cs:297) { "_t" : "R2C_Login", "RpcId" : 1, "Error" : 0, "Message" : "", "Address" : "127.0.0.1:10002", "Key" : NumberLong("861719870280153100") }
+2020-04-10 20:02:41.9038 AllServer 0001 (Session.cs:150) { "_t" : "C2G_LoginGate", "RpcId" : 2, "Key" : NumberLong("861719870280153100") }
+2020-04-10 20:02:41.9038 AllServer 0001 (Session.cs:297) { "_t" : "G2C_LoginGate", "RpcId" : 2, "Error" : 0, "Message" : "", "PlayerId" : NumberLong("281474976710736") }
+2020-04-10 20:02:41.9038 AllServer 0001 (Session.cs:297) { "_t" : "G2C_TestHotfixMessage", "Info" : "recv hotfix message success" }
+2020-04-10 20:02:42.0363 AllServer 0001 (Session.cs:150) { "_t" : "C2G_PlayerInfo", "RpcId" : 3 }
+2020-04-10 20:02:42.0363 AllServer 0001 (Session.cs:297) { "_t" : "G2C_PlayerInfo", "RpcId" : 3, "Error" : 0, "Message" : "", "PlayerInfo" : { "RpcId" : 0 }, "PlayerInfos" : [{ "RpcId" : 1 }, { "RpcId" : 2 }, { "RpcId" : 3 }], "TestRepeatedString" : ["9", "10"], "TestRepeatedInt32" : [4, 5, 6], "TestRepeatedInt64" : [NumberLong(7), NumberLong(8)] }

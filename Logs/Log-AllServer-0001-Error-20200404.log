@@ -1,0 +1,294 @@
+2020-04-04 09:55:13.3322 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 29
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4767 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:97:25
+AddComponent<K> at offset 570 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 515 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 351 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 115 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 09:55:13.3790 AllServer 0001 System.Exception: NetworkComponent Awake Error 101.201.69.167:10002 ---> System.Net.Sockets.SocketException: 在其上下文中，该请求的地址无效。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at ETModel.TService..ctor(Int32 packetSizeLength, IPEndPoint ipEndPoint, Action`1 acceptCallback) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TService.cs:line 35
+   at ETModel.NetworkComponent.Awake(NetworkProtocol protocol, String address, Int32 packetSize) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:line 49
+   --- End of inner exception stack trace ---
+   at ETModel.NetworkComponent.Awake(NetworkProtocol protocol, String address, Int32 packetSize) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:line 59
+   at ETHotfix.NetOuterComponentAwake1System.Awake(NetOuterComponent self, String address) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetOuterComponentSystem.cs:line 21
+   at ETModel.AwakeSystem`2.Run(Object o, A a) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 54
+   at ETModel.EventSystem.Awake[P1](Component component, P1 p1) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 282 
+ Main at offset 5342 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:114:7
+AddComponent<K,P1> at offset 580 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:118:4
+CreateWithParent<T,A> at offset 579 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:76:4
+Awake<P1> at offset 479 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:282:6
+Error at offset 115 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 10:01:54.0911 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 10:04:07.3619 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:13:49.9191 AllServer 0001 MongoDB.Driver.MongoConfigurationException: The connection string 'mongodb://dasshr@a912720539@127.0.0.1:27017/' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 674
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 115
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 621
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 126
+   at MongoDB.Driver.MongoUrl..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrl.cs:line 86
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClientSettings.cs:line 599
+   at MongoDB.Driver.MongoClient..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClient.cs:line 105
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 30
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4858 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:98:25
+AddComponent<K> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 558 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 385 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:13:50.4669 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 149 
+ Main at offset 6776 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:149:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:14:08.4718 AllServer 0001 MongoDB.Driver.MongoConfigurationException: The connection string 'mongodb://dasshr@a912720539@127.0.0.1:27017/' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 674
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 115
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 621
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 126
+   at MongoDB.Driver.MongoUrl..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrl.cs:line 86
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClientSettings.cs:line 599
+   at MongoDB.Driver.MongoClient..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClient.cs:line 105
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 30
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4858 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:98:25
+AddComponent<K> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 558 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 385 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:14:09.1397 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 149 
+ Main at offset 6776 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:149:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:14:39.6194 AllServer 0001 MongoDB.Driver.MongoConfigurationException: The connection string 'mongodb://dasshr@a912720539@127.0.0.1:27017/' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 674
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 115
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 621
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 126
+   at MongoDB.Driver.MongoUrl..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrl.cs:line 86
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClientSettings.cs:line 599
+   at MongoDB.Driver.MongoClient..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClient.cs:line 105
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 30
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4858 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:98:25
+AddComponent<K> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 558 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 385 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:14:40.5702 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 149 
+ Main at offset 6776 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:149:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:17:15.9655 AllServer 0001 MongoDB.Driver.MongoConfigurationException: The connection string 'mongodb://dasshr@a912720539@127.0.0.1:27017/' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 674
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 115
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 621
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 126
+   at MongoDB.Driver.MongoUrl..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrl.cs:line 86
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClientSettings.cs:line 599
+   at MongoDB.Driver.MongoClient..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClient.cs:line 105
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 30
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4858 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:98:25
+AddComponent<K> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 558 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 385 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:17:16.2780 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 149 
+ Main at offset 6776 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:149:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:18:58.0308 AllServer 0001 MongoDB.Driver.MongoConfigurationException: The connection string 'mongodb://dasshr@a912720539@127.0.0.1:27017/' is not valid.
+   at MongoDB.Driver.Core.Configuration.ConnectionString.Parse() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 674
+   at MongoDB.Driver.Core.Configuration.ConnectionString..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Configuration\ConnectionString.cs:line 115
+   at MongoDB.Driver.MongoUrlBuilder.Parse(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 621
+   at MongoDB.Driver.MongoUrlBuilder..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrlBuilder.cs:line 126
+   at MongoDB.Driver.MongoUrl..ctor(String url) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoUrl.cs:line 86
+   at MongoDB.Driver.MongoClientSettings.FromConnectionString(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClientSettings.cs:line 599
+   at MongoDB.Driver.MongoClient..ctor(String connectionString) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoClient.cs:line 105
+   at ETModel.DBComponent.Awake() in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 30
+   at ETModel.DbComponentSystem.Awake(DBComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\DB\DBComponent.cs:line 11
+   at ETModel.AwakeSystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 250 
+ Main at offset 4858 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:98:25
+AddComponent<K> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 558 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 385 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:250:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 11:18:58.6468 AllServer 0001 System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 149 
+ Main at offset 6776 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:149:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 15:09:42.7543 AllServer 0001 System.FormatException: An error occurred while deserializing the Id property of class ETModel.ComponentWithId: Cannot deserialize a 'Int64' from BsonType 'ObjectId'. ---> System.FormatException: Cannot deserialize a 'Int64' from BsonType 'ObjectId'.
+   at MongoDB.Bson.Serialization.Serializers.Int64Serializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\Int64Serializer.cs:line 131
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\SerializerBase.cs:line 119
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize(IBsonSerializer serializer, BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs:line 36
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 555
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 562
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 175
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\Serializers\BsonClassMapSerializer.cs:line 100
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Bson\Serialization\IBsonSerializerExtensions.cs:line 49
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\CursorBatchDeserializationHelper.cs:line 59
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursorBatch(BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 483
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 460
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindCommandOperation.cs:line 504
+   at MongoDB.Driver.Core.Operations.FindOperation`1.Execute(IReadBinding binding, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver.Core\Core\Operations\FindOperation.cs:line 428
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperation[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\OperationExecutor.cs:line 34
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1041
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperation[TResult](IClientSessionHandle session, IReadOperation`1 operation, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1034
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](IClientSessionHandle session, FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 342
+   at MongoDB.Driver.MongoCollectionImpl`1.<>c__DisplayClass41_0`1.<FindSync>b__0(IClientSessionHandle session) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSession[TResult](Func`2 func, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 1119
+   at MongoDB.Driver.MongoCollectionImpl`1.FindSync[TProjection](FilterDefinition`1 filter, FindOptions`2 options, CancellationToken cancellationToken) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\ThirdParty\MongoDBDriver\MongoDB.Driver\MongoCollectionImpl.cs:line 332
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 152 
+ Main at offset 7139 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:152:17
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 19:58:12.6811 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 19:59:20.9153 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 20:06:50.4827 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 20:16:44.9523 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-04 21:53:03.3721 AllServer 0001 System.Exception: actor id is 0
+   at ETModel.ActorLocationSenderComponent.Get(Int64 id) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Module\ActorLocation\ActorLocationSenderComponent.cs:line 32
+   at ETHotfix.SessionPlayerComponentDestroySystem.Destroy(SessionPlayerComponent self) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Demo\SessionPlayerComponentSystem.cs:line 11
+   at ETModel.DestroySystem`1.Run(Object o) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IDestroySystem.cs:line 15
+   at ETModel.EventSystem.Destroy(Component component) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 468 
+ OnRecvComplete at offset 302 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\TCP\TChannel.cs:249:5
+OnError at offset 134 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:61:4
+<Awake>b__0 at offset 96 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:55:5
+Remove at offset 148 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\NetworkComponent.cs:83:4
+Dispose at offset 170 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:69:4
+Dispose at offset 238 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:39:6
+Dispose at offset 121 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Component.cs:124:4
+Destroy at offset 332 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:468:6
+Error at offset 124 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

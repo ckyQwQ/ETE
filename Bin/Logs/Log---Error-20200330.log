@@ -1,0 +1,25 @@
+2020-03-30 18:01:28.1022   System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Think\Desktop\ET-Branch_V5.0\Bin\Config\StartConfig\LocalAllServer.txt'.
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ETModel.StartConfigComponent.Awake(String path, Int32 appId) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Component\StartConfigComponent.cs:line 46
+   at ETModel.StartConfigComponentSystem.Awake(StartConfigComponent self, String a, Int32 b) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Component\StartConfigComponent.cs:line 14
+   at ETModel.AwakeSystem`3.Run(Object o, A a, B b) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 69
+   at ETModel.EventSystem.Awake[P1,P2](Component component, P1 p1, P2 p2) in C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:line 314 
+ Main at offset 466 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:21:5
+AddComponent<K,P1,P2> at offset 597 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\Entity.cs:138:4
+CreateWithParent<T,A,B> at offset 586 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\ComponentFactory.cs:101:4
+Awake<P1,P2> at offset 483 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Object\EventSystem.cs:314:6
+Error at offset 123 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 52 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-03-30 18:01:28.1575   System.NullReferenceException: Object reference not set to an instance of an object.
+   at App.Program.Main(String[] args) in C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:line 23 
+ Main at offset 526 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\App\Program.cs:23:5
+Error at offset 123 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:31:4
+Error at offset 52 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+

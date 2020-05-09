@@ -1,0 +1,58 @@
+2020-04-05 22:07:50.8529 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "dasshr", "Password" : "sdfsdf" }
+2020-04-05 22:08:03.1965 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "dasshr", "Password" : "sdfsdf" }
+2020-04-05 22:09:48.2317 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "dass", "Password" : "sdfsd" }
+2020-04-05 22:10:05.2927 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "dass", "Password" : "sdfsd" }
+2020-04-05 22:13:23.2990 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "da", "Password" : "sd" }
+2020-04-05 22:15:50.0055 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "da", "Password" : "sd" }
+2020-04-05 22:18:26.8303 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 3, "Account" : "da", "Password" : "sd" }
+2020-04-05 22:18:51.8075 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 4, "Account" : "da", "Password" : "sd" }
+2020-04-05 22:28:55.0241 AllServer 0001  { "_t" : "C2R_Register", "RpcId" : 5, "Account" : "da", "Password" : "sd" }
+2020-04-05 22:44:40.2637 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_PlayerInfoHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2M_ReloadHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_PingHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.M2A_ReloadHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectAddRequestHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectGetRequestHandler
+2020-04-05 22:44:40.2721 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectLockRequestHandler
+2020-04-05 22:44:40.2867 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectRemoveRequestHandler
+2020-04-05 22:44:40.2867 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectUnLockRequestHandler
+2020-04-05 22:44:40.2867 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryBatchRequestHandler
+2020-04-05 22:44:40.3263 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryJsonRequestHandler
+2020-04-05 22:44:40.3386 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryRequestHandler
+2020-04-05 22:44:40.3386 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBSaveBatchRequestHandler
+2020-04-05 22:44:40.3386 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBSaveRequestHandler
+2020-04-05 22:44:40.3386 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_EnterMapHandler
+2020-04-05 22:44:40.3608 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_LoginGateHandler
+2020-04-05 22:44:40.3695 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_LoginHandler
+2020-04-05 22:44:40.3695 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_RegisterHandler
+2020-04-05 22:44:40.3695 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.G2M_CreateUnitHandler
+2020-04-05 22:44:40.3695 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.M2M_TrasferUnitRequestHandler
+2020-04-05 22:44:40.3695 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.R2G_GetLoginKeyHandler
+2020-04-05 22:46:18.7513 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_PlayerInfoHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2M_ReloadHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_PingHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.M2A_ReloadHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectAddRequestHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectGetRequestHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectLockRequestHandler
+2020-04-05 22:46:18.7527 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectRemoveRequestHandler
+2020-04-05 22:46:18.7727 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.ObjectUnLockRequestHandler
+2020-04-05 22:46:18.7727 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryBatchRequestHandler
+2020-04-05 22:46:18.7959 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryJsonRequestHandler
+2020-04-05 22:46:18.7959 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBQueryRequestHandler
+2020-04-05 22:46:18.7959 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBSaveBatchRequestHandler
+2020-04-05 22:46:18.7959 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.DBSaveRequestHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_EnterMapHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2G_LoginGateHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_LoginHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.C2R_RegisterHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.G2M_CreateUnitHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.M2M_TrasferUnitRequestHandler
+2020-04-05 22:46:18.7994 AllServer 0001 (MessageDispatherComponentSystem.cs:77) ETHotfix.R2G_GetLoginKeyHandler
+2020-04-05 22:46:29.5268 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "sdf", "Password" : "sdfasd" }
+2020-04-05 22:46:30.3954 AllServer 0001 (Session.cs:297) { "_t" : "R2C_Register", "RpcId" : 2, "Error" : 200102, "Message" : "", "RegisterStatus" : false }
+2020-04-05 22:47:54.1242 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 3, "Account" : "sdf", "Password" : "sdfasd" }
+2020-04-05 22:53:44.4928 AllServer 0001 (Session.cs:297) { "_t" : "R2C_Register", "RpcId" : 3, "Error" : 200102, "Message" : "", "RegisterStatus" : false }
+2020-04-05 22:53:44.5110 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 4, "Account" : "sdf", "Password" : "sdfasd" }
+2020-04-05 23:02:15.5331 AllServer 0001 (Session.cs:150) { "_t" : "C2R_Register", "RpcId" : 6, "Account" : "sdf", "Password" : "sdfasd" }
+2020-04-05 23:02:21.1086 AllServer 0001 (Session.cs:297) { "_t" : "R2C_Register", "RpcId" : 6, "Error" : 0, "Message" : "", "RegisterStatus" : true }

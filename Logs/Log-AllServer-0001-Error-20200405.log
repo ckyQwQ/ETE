@@ -1,0 +1,108 @@
+2020-04-05 22:07:50.8631 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "dasshr", "Password" : "sdfsdf" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:08:03.1965 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "dasshr", "Password" : "sdfsdf" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:09:48.2317 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "dass", "Password" : "sdfsd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:10:05.2927 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "dass", "Password" : "sdfsd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:13:23.3377 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 1, "Account" : "da", "Password" : "sd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:15:50.0055 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 2, "Account" : "da", "Password" : "sd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:18:26.8338 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 3, "Account" : "da", "Password" : "sd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:18:51.8075 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 4, "Account" : "da", "Password" : "sd" } 
+ OnRead at offset 83 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Network\AChannel.cs:55:4
+OnRead at offset 76 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:120:5
+Run at offset 637 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Module\Message\Session.cs:164:5
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Unity\Assets\Model\Base\Async\AsyncETVoidMethodBuilder.cs:74:13
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Log.cs:36:4
+Error at offset 64 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-04-05 22:28:55.0241 AllServer 0001 消息没有处理: 10002 { "_t" : "C2R_Register", "RpcId" : 5, "Account" : "da", "Password" : "sd" } 
+ OnRead at offset 83 in file:line:column <filename unknown>:0:0
+OnRead at offset 76 in file:line:column <filename unknown>:0:0
+Run at offset 637 in file:line:column <filename unknown>:0:0
+Dispatch at offset 82 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:9:4
+DispatchAsync at offset 279 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 80 in file:line:column <filename unknown>:0:0
+MoveNext at offset 1986 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\OuterMessageDispatcher.cs:53:6
+Handle at offset 312 in file:line:column C:\Users\Think\Desktop\ET-Branch_V5.0\Server\Hotfix\Module\Message\MessageDispatherComponentSystem.cs:84:5
+Error at offset 82 in file:line:column <filename unknown>:0:0
+Error at offset 64 in file:line:column <filename unknown>:0:0
+

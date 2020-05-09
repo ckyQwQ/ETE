@@ -1,0 +1,11 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\bin\Debug\netcoreapp2.2\Example2_3.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\bin\Debug\netcoreapp2.2\Example2_3.runtimeconfig.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\bin\Debug\netcoreapp2.2\Example2_3.runtimeconfig.dev.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\bin\Debug\netcoreapp2.2\Example2_3.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\bin\Debug\netcoreapp2.2\Example2_3.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.csprojAssemblyReference.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Book\Example\Example2_3\obj\Debug\netcoreapp2.2\Example2_3.pdb

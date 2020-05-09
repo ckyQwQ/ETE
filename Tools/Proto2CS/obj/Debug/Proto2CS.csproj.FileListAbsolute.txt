@@ -1,0 +1,11 @@
+C:\Users\Think\Desktop\ET-Branch_V5.0\Proto\Proto2CS.deps.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Proto\Proto2CS.runtimeconfig.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Proto\Proto2CS.runtimeconfig.dev.json
+C:\Users\Think\Desktop\ET-Branch_V5.0\Proto\Proto2CS.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Proto\Proto2CS.pdb
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.csprojAssemblyReference.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.csproj.CoreCompileInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfoInputs.cache
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.AssemblyInfo.cs
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.dll
+C:\Users\Think\Desktop\ET-Branch_V5.0\Tools\Proto2CS\obj\Debug\Proto2CS.pdb
